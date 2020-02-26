@@ -1,0 +1,36 @@
+[
+    {
+        "username": "Andi",
+        "lokasi": "Bandung",
+        "device":[
+            "00010",
+            "00011",
+            "00012",
+            "00013",
+            "00014",
+            "00015"
+        ]
+    },
+    {
+        "username": "Budi",
+        "lokasi": "Jakarta",
+        "device":[
+            "00016",
+            "00017",
+            "00018",
+            "00019",
+            "0001A",
+            "0001B"
+        ]
+    },
+    {
+        "username":"Taja",
+        "lokasi":"Bandung",
+        "device":[
+            "0001C",
+            "0001D",
+            "0001E",
+            "0001F"
+        ]
+    }
+]
