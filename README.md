@@ -26,6 +26,17 @@ If we use Miniconda, then we can create the virtual environment using requiremen
 conda env create -f requirement.yml
 ```
 
+## Data Structure
+
+I divided entities into 3 tables:
+* user (id int, username string, device)
+* device (id string, user_id int)
+* trx (id uuid4, amount int, time int, device_id string)
+
+The relationships are:
+* user.id - device.user_id
+* device.id - trx.device_id
+
 ## Guidelines
 
 ### Step 1
