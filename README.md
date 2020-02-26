@@ -10,6 +10,7 @@ Before we come so far, I was at first having some options to store data at:
 * JSON
 * CSV
 * Parquet (actually not sure for this, because never tried, but there's always first time for everything)
+
 I am facing problem that can come with so much records and should be able to access by using filtering. I am wondering using either CSV or JSON will be able to read data using filtering. Because it will give pain to handle that. Then SQLite became my choice since it's just like common RDB. I have no idea actually about how large the file will be since I only generate 10000 data and the size is 1.2MB. I am wondering actually if we compare it to JSON or CSV. But in performance, I think SQLite will be the best since we can create index in it. So, although the data increases, the performance will still remain.
 
 ## Prerequisites
